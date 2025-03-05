@@ -126,7 +126,7 @@ setuser({...user,[name]:value})
             <h1 className='text-gray-800 text-center'>OR</h1>
             <button
   type="button"
-  onClick={() => window.location.href = "http://localhost:5000/api/auth/google"}
+  onClick={() => window.location.href = `${url}/api/auth/google`}
   className="w-full flex items-center justify-center gap-2 bg-red-800 text-white py-3 rounded-md hover:bg-red-600 transition mt-3"
 >
   <img width="48" height="48" src="https://img.icons8.com/fluency/48/google-logo.png" alt="google-logo"/>

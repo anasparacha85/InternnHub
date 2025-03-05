@@ -12,7 +12,11 @@ const AdminRouter=require('./Router/AdminRouter')
 require('./Config/passport')
 const server=express()
 
-server.use(cors())
+app.use(cors({
+    origin: `${process.env.FRONT_END_URL}`,  // OR frontend ka actual URL likhein
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"]
+  }));
 server.use(bodyparser.json())
 server.use(passport.initialize())
 server.use(express.urlencoded({ extended: true }));

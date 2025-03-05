@@ -2,7 +2,7 @@ import { useContext,createContext, useEffect } from "react";
 import { useState } from "react";
 export const StoreContext=createContext();
 export const StoreContextProvider=({children})=>{
-    const url="https://internee-backend-oyxnhk2jt-anasparacha85s-projects.vercel.app";
+    const url="https://internee-backend-3jwkowhoh-anasparacha85s-projects.vercel.app";
 const [AdminLoginOpen, setAdminLoginOpen] = useState(false)
 const [AdminSignupOpen, setAdminSignupOpen] = useState(false)
 const [InterneeLoginOpen, setInterneeLoginOpen] = useState(false)

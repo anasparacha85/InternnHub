@@ -71,7 +71,7 @@ const Login=async (req,res,next)=>{
 const GoogleLogin=async(req,res)=>{
     const token=await req.user.generateToken()
    const SuccessMessage='Login Successfull'
-    res.redirect(`http://localhost:5173/google-auth-success?token=${token}&SuccessMessage=${SuccessMessage}`)
+    res.redirect(`${process.env.FRONT_END_URL}/google-auth-success?token=${token}&SuccessMessage=${SuccessMessage}`)
 
     
 }

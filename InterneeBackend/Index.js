@@ -28,6 +28,10 @@ server.use('/api/user',UserRouter)
 server.use('/api/admin',AdminRouter)
 server.use(errormiddleware)
 
+server.get('/test', (req, res) => {
+    res.status(200).json({ message: "Server is running successfully!" });
+});
+
 const connectdb=require('./utils/db')
 const PORT=process.env.PORT||5000
 connectdb().then(()=>{

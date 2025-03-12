@@ -3,3 +3,16 @@
 .color{
     background-color:rgb(6, 6, 74);
 }
+.bg-custom {
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  
+  @media (max-width: 768px) {
+    .bg-custom {
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }

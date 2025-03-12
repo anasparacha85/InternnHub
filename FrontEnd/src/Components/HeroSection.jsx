@@ -35,7 +35,7 @@ navigate('/job-portal/hiring')
     }
     return (
       <div  className='w-[100%]  ' style={{background: 'linear-gradient(to bottom right , rgb(55, 7, 55),rgb(198, 20, 189),rgb(7, 7, 107))'}}>
-      <section className=" text-white h-screen  p-16 lg:pl-60 text-center lg:text-start" style={{backgroundImage:`url( ${backgroundimage})`,backgroundSize: '50%', backgroundRepeat:'no-repeat' ,backgroundPosition:'right'}}>
+      <section className=" text-white h-screen bg-custom  p-16 lg:pl-60 text-center lg:text-start" style={{backgroundImage:`url( ${backgroundimage})`}}>
        
         <p className="text-lg mb-6">We have 850,000 great job offers you deserve!</p>
 

@@ -11,7 +11,7 @@ const ImageTextSection = () => {
         </div>
   
         {/* Right Side - Text Content */}
-        <div className="w-full md:w-1/2 p-6 px-20 md:p-12">
+        <div className="w-full md:w-1/2 p-6 md:px-20 md:p-12">
           <h1 className="text-[40px]  text-gray-800 mb-4">Ultimate Place To Find The Best Job</h1>
           <p className="text-gray-400 text-lg">
           Internee.pk bridges the gap between talented individuals and the thriving IT industry, providing a pathway for students to succeed in the tech world. Whether you’re a beginner or an enthusiast, Internee.pk offers a unique blend of theory and practical experience to propel your tech career forward

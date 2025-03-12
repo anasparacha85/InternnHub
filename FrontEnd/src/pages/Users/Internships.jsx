@@ -17,7 +17,7 @@ export const Internships = () => {
     <div>
         <UserHeader />
        
-        <div className='grid grid-cols-3 px-20 gap-10 '>
+        <div className='grid grid-cols-1 md:grid-cols-3 md:px-20 gap-10 '>
             {JobsCategories.map((value,index)=>(
                
                 
@@ -36,7 +36,7 @@ export const Internships = () => {
 
       </div>
 
-      <div className='w-full flex justify-between px-20 mb-10'>
+      <div className='w-full flex flex-col md:flex-row justify-between md:px-20 mb-10'>
         <HandsonCard img="https://img.icons8.com/ios/50/system-information.png" h1="15k+" h3="Internship Provided"/>
         <HandsonCard img="https://img.icons8.com/ios/50/system-information.png" h1="48k+" h3="LinkedIn Family"/>
         <HandsonCard img="https://img.icons8.com/ios/50/system-information.png" h1="28" h3="Courses on LMS"/>

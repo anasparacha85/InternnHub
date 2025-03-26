@@ -44,7 +44,7 @@ export const IntershipsbyCategories = () => {
 <div className='w-full flex justify-center ' >
 <div className='md:w-[75%] w-full flex flex-col  '>
   {jobsdata.map((value,index)=>(
-<JobCategoryCard key={value._id} title={value.JobName} image={`${url}/${value.JobImage}`} type={value.JobType} duration={value.JobDuration} id={value._id}/>
+<JobCategoryCard key={value._id} title={value.JobName} image={value.JobImage} type={value.JobType} duration={value.JobDuration} id={value._id}/>
   )
 
   )}

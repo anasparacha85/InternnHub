@@ -47,7 +47,7 @@ export const UserHome = () => {
             {JobsCategories.map((value,index)=>(
                
                 
-                 <Card key={index} image={`${url}/${value.CategoryImage}`} title={value.JobCategory} Category={value.JobCategory} />
+                 <Card key={index} image={value.CategoryImage} title={value.JobCategory} Category={value.JobCategory} />
                
             ))}
         </div>
